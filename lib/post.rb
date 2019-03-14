@@ -11,7 +11,7 @@ class Post
   def author_name
     @author.name
   end
-  
+
   def self.class_variable_get(variable)
     @@all
   end
