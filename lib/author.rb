@@ -21,4 +21,8 @@ class Author
   def self.post_count
     @@posts_by_all_authors.count
   end
+
+  def self.class_variable_get(variable)
+    @@posts_by_all_authors
+  end
 end
