@@ -11,4 +11,8 @@ class Post
   def self.class_variable_get(variable)
     @@all
   end
+
+  def self.all
+    @@all
+  end
 end
