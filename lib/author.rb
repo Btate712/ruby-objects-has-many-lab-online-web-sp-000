@@ -17,4 +17,7 @@ class Author
     post = Post.new(title)
     add_post(post)
   end
+
+  def self.post.count
+    @@posts_by_all_authors.count
 end
